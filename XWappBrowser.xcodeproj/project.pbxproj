@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		468AFB541D7407DC00747B8F /* ImageTipsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 468AFB531D7407DC00747B8F /* ImageTipsView.m */; };
+		468AFB591D7407F300747B8F /* UIViewController+HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 468AFB561D7407F300747B8F /* UIViewController+HUD.m */; };
+		468AFB5A1D7407F300747B8F /* CenterPushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 468AFB581D7407F300747B8F /* CenterPushView.m */; };
+		46A10FB21D73C9A5009048FE /* WKWebView+BarButtonExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A10FB11D73C9A5009048FE /* WKWebView+BarButtonExtend.m */; };
+		46A10FB81D73E116009048FE /* PushKey.plist in Resources */ = {isa = PBXBuildFile; fileRef = 46A10FB71D73E116009048FE /* PushKey.plist */; };
+		46A10FBB1D73E64E009048FE /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46A10FBA1D73E64E009048FE /* WebViewController.m */; };
 		46B6806E1D700D9C00332CA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B6806D1D700D9C00332CA1 /* main.m */; };
 		46B680711D700D9C00332CA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B680701D700D9C00332CA1 /* AppDelegate.m */; };
 		46B680741D700D9C00332CA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B680731D700D9C00332CA1 /* ViewController.m */; };
 		46B680771D700D9C00332CA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B680751D700D9C00332CA1 /* Main.storyboard */; };
 		46B680791D700D9C00332CA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46B680781D700D9C00332CA1 /* Assets.xcassets */; };
 		46B6807C1D700D9C00332CA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46B6807A1D700D9C00332CA1 /* LaunchScreen.storyboard */; };
+		46B680861D700F6300332CA1 /* WKWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B680851D700F6300332CA1 /* WKWebViewController.m */; };
+		46B6808A1D70105300332CA1 /* WebBase.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 46B680891D70105300332CA1 /* WebBase.bundle */; };
+		46B6808D1D70113300332CA1 /* NSString+URLExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = 46B6808C1D70113300332CA1 /* NSString+URLExtend.m */; };
+		BEA5A6D4235C1349B3BB280D /* libPods-XWappBrowser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BCA6C0EE679D1043ABA4E01 /* libPods-XWappBrowser.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		468AFB521D7407DC00747B8F /* ImageTipsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTipsView.h; sourceTree = "<group>"; };
+		468AFB531D7407DC00747B8F /* ImageTipsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTipsView.m; sourceTree = "<group>"; };
+		468AFB551D7407F300747B8F /* UIViewController+HUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HUD.h"; sourceTree = "<group>"; };
+		468AFB561D7407F300747B8F /* UIViewController+HUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HUD.m"; sourceTree = "<group>"; };
+		468AFB571D7407F300747B8F /* CenterPushView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterPushView.h; sourceTree = "<group>"; };
+		468AFB581D7407F300747B8F /* CenterPushView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterPushView.m; sourceTree = "<group>"; };
+		46A10FB01D73C9A5009048FE /* WKWebView+BarButtonExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "WKWebView+BarButtonExtend.h"; path = "WKWebViewController/WKWebView+BarButtonExtend.h"; sourceTree = "<group>"; };
+		46A10FB11D73C9A5009048FE /* WKWebView+BarButtonExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "WKWebView+BarButtonExtend.m"; path = "WKWebViewController/WKWebView+BarButtonExtend.m"; sourceTree = "<group>"; };
+		46A10FB71D73E116009048FE /* PushKey.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PushKey.plist; sourceTree = "<group>"; };
+		46A10FB91D73E64E009048FE /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		46A10FBA1D73E64E009048FE /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
 		46B680691D700D9C00332CA1 /* XWappBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XWappBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46B6806D1D700D9C00332CA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		46B6806F1D700D9C00332CA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +47,14 @@
 		46B680781D700D9C00332CA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46B6807B1D700D9C00332CA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46B6807D1D700D9C00332CA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46B680841D700F6300332CA1 /* WKWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WKWebViewController.h; path = WKWebViewController/WKWebViewController.h; sourceTree = "<group>"; };
+		46B680851D700F6300332CA1 /* WKWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WKWebViewController.m; path = WKWebViewController/WKWebViewController.m; sourceTree = "<group>"; };
+		46B680891D70105300332CA1 /* WebBase.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WebBase.bundle; sourceTree = "<group>"; };
+		46B6808B1D70113300332CA1 /* NSString+URLExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+URLExtend.h"; path = "WKWebViewController/NSString+URLExtend.h"; sourceTree = "<group>"; };
+		46B6808C1D70113300332CA1 /* NSString+URLExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+URLExtend.m"; path = "WKWebViewController/NSString+URLExtend.m"; sourceTree = "<group>"; };
+		5BCA6C0EE679D1043ABA4E01 /* libPods-XWappBrowser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XWappBrowser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		847A5614FD2BE260052AFC55 /* Pods-XWappBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWappBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-XWappBrowser/Pods-XWappBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		A597A8C315E82DCB70EC3D99 /* Pods-XWappBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XWappBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XWappBrowser/Pods-XWappBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +62,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEA5A6D4235C1349B3BB280D /* libPods-XWappBrowser.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12C22A32B404F71A7E746FB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A597A8C315E82DCB70EC3D99 /* Pods-XWappBrowser.debug.xcconfig */,
+				847A5614FD2BE260052AFC55 /* Pods-XWappBrowser.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		46B680601D700D9C00332CA1 = {
 			isa = PBXGroup;
 			children = (
 				46B6806B1D700D9C00332CA1 /* XWappBrowser */,
 				46B6806A1D700D9C00332CA1 /* Products */,
+				12C22A32B404F71A7E746FB0 /* Pods */,
+				B8F7D2B7A8E9B8C4E24F25E9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +99,24 @@
 		46B6806B1D700D9C00332CA1 /* XWappBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				46B680831D700F3200332CA1 /* WKWebViewController */,
 				46B6806F1D700D9C00332CA1 /* AppDelegate.h */,
 				46B680701D700D9C00332CA1 /* AppDelegate.m */,
 				46B680721D700D9C00332CA1 /* ViewController.h */,
 				46B680731D700D9C00332CA1 /* ViewController.m */,
+				46A10FB91D73E64E009048FE /* WebViewController.h */,
+				46A10FBA1D73E64E009048FE /* WebViewController.m */,
+				468AFB551D7407F300747B8F /* UIViewController+HUD.h */,
+				468AFB561D7407F300747B8F /* UIViewController+HUD.m */,
+				468AFB571D7407F300747B8F /* CenterPushView.h */,
+				468AFB581D7407F300747B8F /* CenterPushView.m */,
+				468AFB521D7407DC00747B8F /* ImageTipsView.h */,
+				468AFB531D7407DC00747B8F /* ImageTipsView.m */,
 				46B680751D700D9C00332CA1 /* Main.storyboard */,
 				46B680781D700D9C00332CA1 /* Assets.xcassets */,
 				46B6807A1D700D9C00332CA1 /* LaunchScreen.storyboard */,
 				46B6807D1D700D9C00332CA1 /* Info.plist */,
+				46B680891D70105300332CA1 /* WebBase.bundle */,
 				46B6806C1D700D9C00332CA1 /* Supporting Files */,
 			);
 			path = XWappBrowser;
@@ -79,6 +130,28 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		46B680831D700F3200332CA1 /* WKWebViewController */ = {
+			isa = PBXGroup;
+			children = (
+				46A10FB71D73E116009048FE /* PushKey.plist */,
+				46B6808B1D70113300332CA1 /* NSString+URLExtend.h */,
+				46B6808C1D70113300332CA1 /* NSString+URLExtend.m */,
+				46A10FB01D73C9A5009048FE /* WKWebView+BarButtonExtend.h */,
+				46A10FB11D73C9A5009048FE /* WKWebView+BarButtonExtend.m */,
+				46B680841D700F6300332CA1 /* WKWebViewController.h */,
+				46B680851D700F6300332CA1 /* WKWebViewController.m */,
+			);
+			name = WKWebViewController;
+			sourceTree = "<group>";
+		};
+		B8F7D2B7A8E9B8C4E24F25E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BCA6C0EE679D1043ABA4E01 /* libPods-XWappBrowser.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +159,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46B680801D700D9C00332CA1 /* Build configuration list for PBXNativeTarget "XWappBrowser" */;
 			buildPhases = (
+				165D8397C489B56478E5A8E3 /* [CP] Check Pods Manifest.lock */,
 				46B680651D700D9C00332CA1 /* Sources */,
 				46B680661D700D9C00332CA1 /* Frameworks */,
 				46B680671D700D9C00332CA1 /* Resources */,
+				304D68B19D03F4E2FB52907C /* [CP] Embed Pods Frameworks */,
+				DBF4EBB2FE32A9F4B52DA3D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,22 +212,79 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46A10FB81D73E116009048FE /* PushKey.plist in Resources */,
 				46B6807C1D700D9C00332CA1 /* LaunchScreen.storyboard in Resources */,
 				46B680791D700D9C00332CA1 /* Assets.xcassets in Resources */,
 				46B680771D700D9C00332CA1 /* Main.storyboard in Resources */,
+				46B6808A1D70105300332CA1 /* WebBase.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		165D8397C489B56478E5A8E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		304D68B19D03F4E2FB52907C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XWappBrowser/Pods-XWappBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBF4EBB2FE32A9F4B52DA3D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XWappBrowser/Pods-XWappBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		46B680651D700D9C00332CA1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				468AFB541D7407DC00747B8F /* ImageTipsView.m in Sources */,
 				46B680741D700D9C00332CA1 /* ViewController.m in Sources */,
+				46A10FBB1D73E64E009048FE /* WebViewController.m in Sources */,
 				46B680711D700D9C00332CA1 /* AppDelegate.m in Sources */,
 				46B6806E1D700D9C00332CA1 /* main.m in Sources */,
+				46A10FB21D73C9A5009048FE /* WKWebView+BarButtonExtend.m in Sources */,
+				468AFB591D7407F300747B8F /* UIViewController+HUD.m in Sources */,
+				46B6808D1D70113300332CA1 /* NSString+URLExtend.m in Sources */,
+				46B680861D700F6300332CA1 /* WKWebViewController.m in Sources */,
+				468AFB5A1D7407F300747B8F /* CenterPushView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,9 +396,11 @@
 		};
 		46B680811D700D9C00332CA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A597A8C315E82DCB70EC3D99 /* Pods-XWappBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XWappBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.XWappBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,9 +409,11 @@
 		};
 		46B680821D700D9C00332CA1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 847A5614FD2BE260052AFC55 /* Pods-XWappBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XWappBrowser/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.XWappBrowser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -302,6 +439,7 @@
 				46B680821D700D9C00332CA1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

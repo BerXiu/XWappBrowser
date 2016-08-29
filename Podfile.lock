@@ -1,0 +1,45 @@
+PODS:
+  - Masonry (0.6.4)
+  - NSObjectExtend (1.7.2):
+    - NSObjectExtend/All (= 1.7.2)
+  - NSObjectExtend/All (1.7.2):
+    - NSObjectExtend/Core
+    - NSObjectExtend/CoreLocation
+    - NSObjectExtend/UIKit
+  - NSObjectExtend/Core (1.7.2)
+  - NSObjectExtend/CoreLocation (1.7.2):
+    - NSObjectExtend/Core
+  - NSObjectExtend/UIKit (1.7.2):
+    - NSObjectExtend/Core
+  - pop (1.0.9)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDWebImage (3.7.6):
+    - SDWebImage/Core (= 3.7.6)
+  - SDWebImage/Core (3.7.6)
+  - SVProgressHUD (1.1.3)
+
+DEPENDENCIES:
+  - Masonry (~> 0.6.0)
+  - NSObjectExtend (~> 1.7.0)
+  - pop (~> 1.0.0)
+  - ReactiveCocoa (~> 2.5)
+  - SDWebImage (~> 3.7.0)
+  - SVProgressHUD (~> 1.1.0)
+
+SPEC CHECKSUMS:
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  NSObjectExtend: 7dec0d688d87c30868fbbd3924789f7f72950c56
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDWebImage: c325cf02c30337336b95beff20a13df489ec0ec9
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+
+PODFILE CHECKSUM: ddb23794f076e33b56f443c6265b47ad458249f5
+
+COCOAPODS: 1.1.0.beta.1

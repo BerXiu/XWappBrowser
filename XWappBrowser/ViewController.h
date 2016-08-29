@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WKWebViewController.h"
 
 @interface ViewController : UIViewController
 

@@ -1,0 +1,1 @@
+../../../NSObjectExtend/Classes/CoreLocation/NSObject+CoreLocation.h
